@@ -42,20 +42,6 @@ function colorCode() {
 colorCode();
 setInterval(colorCode, 1000);
 
-// event adding function
-
-var timeBlock = $('.row');
-var eventBlock = $('.event');
-
-timeBlock.on('click', function(){
-    if (!eventBlock.find('textarea').length) {
-        eventBlock.append('<textarea></textarea>');
-        var textName = $(this).attr('id');
-        $('textarea').attr('class', textName);
-        $(this).children(".event").addClass(textName);
-
-    }
-});
 
 //Saving to local storage
 
@@ -72,9 +58,32 @@ $('.saveBtn').on('click', function () {
 
 // Getting event from local storage in case of a page refresh
 
-var h10 = localStorage.getItem("h-10")
+var h9 = localStorage.getItem("h-9");
+$('textarea[name="h9"]').val(h9);
 
-console.log(h10)
+var h10 = localStorage.getItem("h-10");
+$('textarea[name="h10"]').val(h10);
 
-//$("h-10").children(".event").text(h10);
+var h11 = localStorage.getItem("h-11");
+$('textarea[name="h11"]').val(h11);
+
+var h12 = localStorage.getItem("h-12");
+$('textarea[name="h12"]').val(h12);
+
+var h13 = localStorage.getItem("h-13");
+$('textarea[name="h13"]').val(h13);
+
+var h14 = localStorage.getItem("h-14");
+$('textarea[name="h14"]').val(h14);
+
+var h15 = localStorage.getItem("h-15");
+$('textarea[name="h15"]').val(h15);
+
+var h16 = localStorage.getItem("h-16");
+$('textarea[name="h16"]').val(h16);
+
+var h17 = localStorage.getItem("h-17");
+$('textarea[name="h17"]').val(h17);
+
+
 
