@@ -1,7 +1,7 @@
 Work Day Planner
 
 ## Description
-This web application has been created to add important events to a daily planner and manage time effectively. The planner is divided into one-hour time blocks and each time block is colour-coded depending on the time being past, present or future. The app can be reach through this <a href=" target="_blank">link</a>.
+This web application has been created to add important events to a daily planner and manage time effectively. The planner is divided into one-hour time blocks and each time block is colour-coded depending on the time being past, present or future. The app can be reach through this <a href="https://hazalsigic.github.io/work-day-scheduler/" target="_blank">link</a>.
 
 ## Installation
 N/A
