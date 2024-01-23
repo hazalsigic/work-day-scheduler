@@ -7,7 +7,7 @@ This web application has been created to add important events to a daily planner
 N/A
 
 ## Visuals
-![application screenshot](/images/work-day-scheduler.png)
+![application screenshot](assets/images/work-day-scheduler.png)
 
 ## Usage
 Users can enter an event by clicking the designated time block and edit if needed. The event is saved when save button is clicked and saved events persists between page refreshes. 
